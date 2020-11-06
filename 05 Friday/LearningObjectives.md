@@ -12,7 +12,7 @@ the seamless user experience that a typical single-page application promises. Th
 
 > It is not recommended to save passwords in plain text since hackers can listen in on the data transfered and therefore sniff out password for users. Instead one could
 use bcrypt to hash our code. Hackers can still make use of a rainbow table, when they are building up databases with the hash of each "normal" used password.
-However Bcrypt is very slow so hackers can't really make use of it.
+However Bcrypt is very slow so hackers can't really make use of it. 
 
 To be able to use bcrypt in netbeans one has to import the following dependency:
 
