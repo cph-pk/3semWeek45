@@ -16,7 +16,7 @@ However Bcrypt is very slow so hackers can't really make use of it.
 
 To be able to use bcrypt in netbeans one has to import the following dependency:
 
-```
+```java
 <dependency>
    <groupId>org.mindrot</groupId>
    <artifactId>jbcrypt</artifactId>
